@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spam Detector</title>
+  <img class="img" src="icon.png" alt="Feedback Image">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="h">
+    <h1 class="title">Dark pattern Detector</h1>
+  </div>
+  <div class="b">
+    <button id="detectButton">Detect dark pattern </button>
+  </div>
+  <div>
+    <form id="feedbackForm">
+      <label class="feed" for="feedback">Your Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="2" required></textarea>
+  
+      <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+    </form>
+  </div>
+
+  <div id="result"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

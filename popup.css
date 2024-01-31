@@ -1,0 +1,63 @@
+body {
+  width: 300px; /* Adjust width as needed */
+  height: 400px;
+  margin: 0;
+  background-image: url('background.jpg');
+
+}
+.img{
+  margin-top:5vh;
+  margin-left:30vh;
+
+}
+.detect {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border-radius:18px;
+  background-color:rgb(2,158,255);
+  color:white;
+  border:none;
+  cursor:pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+.detect:active {
+  background-color: white; /* Slightly darker background color when clicked */
+  color:rgb(2,158,255);
+}
+
+.b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+border-radius: 50px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 300px;
+margin-top:20vh;
+
+}
+label {
+display: block;
+margin-bottom: 8px;
+}
+.feed{
+border-radius:10px;
+}
+button{
+padding: 10px 20px; 
+font-size: 16px; 
+border-radius:18px;
+background-color:rgb(16, 141, 243);
+color:white;
+border:none;
+cursor:pointer;
+transition: background-color 0.3s, color 0.3s;
+}

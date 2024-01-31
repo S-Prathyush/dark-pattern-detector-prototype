@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Pattern Detector",
+    "version": "1.0",
+    "description": "Detects spam content on webpages",
+    "permissions": ["activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+
+    },
+    "icons": {
+      "48": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
